@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+.container {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Inter";
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  padding: 20px 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+#header:not(.scrolled) {
+  background-color: transparent;
+}
+
+#header.scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo h1 {
+  color: #006aff;
+  font-size: 27px;
+  font-weight: 800;
+}
+
+.logo h1 span {
+  color: #f06a3d;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: gray;
+}
+
+.tel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tel span {
+  color: #006aff;
+}

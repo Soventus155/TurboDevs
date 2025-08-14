@@ -1,0 +1,34 @@
+@import url('../css/style.css');
+
+
+.header-hero-wrapper {
+  background-image: url('../img/png/line.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#hero {
+  flex: 1;
+  display: flex;
+  padding-top: 100px;
+  color: white;
+}
+
+.hero-text h1 {
+    font-size: 90px;
+    color: #FFF;
+    font-weight: 800;
+}
+
+.hero-text h1 span {
+    color: #006aff;
+    font-weight: 900;
+}
+
+.hero-text h5 {
+    font-size: 30px;
+}
