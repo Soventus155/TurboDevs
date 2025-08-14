@@ -1,15 +1,15 @@
-.price h1{
+.price h1 {
   color: #fff;
-    font-size: 60px;
-    text-align: center;
-} 
-.price h3{
-    color: #fff;
-    margin-top: 10px;
-    text-align: center;
+  font-size: 60px;
+  text-align: center;
 }
-.price h3 span{
-    color: #006aff;
+.price h3 {
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+}
+.price h3 span {
+  color: #006aff;
 }
 #price {
   background: linear-gradient(180deg, #0d0d0d 0%, #1a1a2e 100%);
@@ -84,11 +84,11 @@
   box-shadow: 0 10px 30px rgba(0, 212, 255, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.middle{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-left: auto;
+.middle {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-left: auto;
 }
 .plan:hover {
   transform: translateY(-10px);
@@ -127,7 +127,7 @@
 .plan h2 {
   font-size: 2em;
   margin-bottom: 20px;
- color: rgb(209, 209, 8);
+  color: rgb(209, 209, 8);
 }
 
 .plan ul {
@@ -157,27 +157,57 @@
 
 /* Animations */
 @keyframes fadeInDown {
-  0% { opacity: 0; transform: translateY(-20px); }
-  100% { opacity: 1; transform: translateY(0); }
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes slideInLeft {
-  0% { opacity: 0; transform: translateX(-100px) translateX(-50%); }
-  100% { opacity: 1; transform: translateX(0) translateX(-50%); }
+  0% {
+    opacity: 0;
+    transform: translateX(-100px) translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) translateX(-50%);
+  }
 }
 
 @keyframes slideInRight {
-  0% { opacity: 0; transform: translateX(100px) translateX(50%); }
-  100% { opacity: 1; transform: translateX(0) translateX(50%); }
+  0% {
+    opacity: 0;
+    transform: translateX(100px) translateX(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) translateX(50%);
+  }
 }
 
 @keyframes slideInUp {
-  0% { opacity: 0; transform: translateY(50px); }
-  100% { opacity: 1; transform: translateY(0); }
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(0, 212, 255, 0.4); }
-  70% { box-shadow: 0 0 0 10px rgba(0, 212, 255, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(0, 212, 255, 0); }
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 212, 255, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(0, 212, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 212, 255, 0);
+  }
 }
