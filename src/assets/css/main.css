@@ -1,8 +1,8 @@
-@import url('../css/style.css');
-
+@import url("../css/style.css");
+@import url("../css/app.css");
 
 .header-hero-wrapper {
-  background-image: url('../img/png/line.png');
+  background-image: url("../img/png/line.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,17 +18,45 @@
   color: white;
 }
 
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-line-border {
+  width: 25px;
+  height: 25px;
+  background: #006aff;
+  border-radius: 50%;
+}
+
+.hero-lines {
+  width: 5px;
+  height: 400px;
+  background: linear-gradient(to bottom, #006aff, transparent);
+  margin-left: 10px;
+}
+
+.hero-text {
+  margin-bottom: 70px;
+}
 .hero-text h1 {
-    font-size: 90px;
-    color: #FFF;
-    font-weight: 800;
+  font-size: 90px;
+  color: #fff;
+  font-weight: 800;
 }
 
 .hero-text h1 span {
-    color: #006aff;
-    font-weight: 900;
+  color: #006aff;
+  font-weight: 900;
 }
 
 .hero-text h5 {
-    font-size: 30px;
+  padding-top: 20px;
+  padding-left: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 50px;
 }

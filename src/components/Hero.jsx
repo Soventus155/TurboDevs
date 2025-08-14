@@ -5,6 +5,10 @@ const Hero = () => {
     <div id="hero">
       <div className="container">
         <div className="hero">
+          <div className="hero-line">
+            <div className="hero-line-border"></div>
+            <div className="hero-lines"></div>
+          </div>
           <div className="hero-text">
             <h1>
               Добро пожаловать в <br /> <span>TurboDevs</span>
