@@ -1,15 +1,14 @@
 import React from "react";
 import "./assets/css/main.css"
-import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
 import Fon from "./components/fon/Fon";
 function App() {
   return (
     <div className="App">
-      <Fon/>
-      <Main/>
-      <Footer/>
+      <Fon />
+      <Main />
+      <Footer />
     </div>
   );
 }

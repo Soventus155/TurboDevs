@@ -9,12 +9,6 @@ h1 {
     padding: 50px 0;
 }
 
-
-
-
-
-/* sike sekes */
-
 #services h1 {
     text-align: center;
     margin-bottom: 30px;
@@ -80,4 +74,13 @@ h1 {
 
 .services_box:hover svg {
     color: #fff;
+}
+
+#footer {
+    background-color: #000;
+    min-height: 300px;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    
 }
