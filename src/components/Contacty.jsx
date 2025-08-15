@@ -13,6 +13,10 @@ const Contacty = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (name, value) => {
+
+
+
+    
     setForm({ ...form, [name]: value });
   };
 
