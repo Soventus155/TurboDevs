@@ -1,13 +1,14 @@
 @import url("../css/style.css");
 @import url("../css/app.css");
 @import url("../css/price.css");
+@import url("../css/footer.css");
 
 .header-hero-wrapper {
   background-image: url("../img/png/line.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  height: 700px;
   display: flex;
   flex-direction: column;
 }
@@ -153,3 +154,5 @@
   color: #ccc;
   line-height: 1.5;
 }
+
+
