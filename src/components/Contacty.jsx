@@ -16,7 +16,7 @@ const Contacty = () => {
 
 
 
-    
+
     setForm({ ...form, [name]: value });
   };
 
