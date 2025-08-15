@@ -4,7 +4,6 @@ import Services from "./Services";
 import About from "./About";
 import Price from "./Price";
 import Whyus from "./Whyus";
-import Contacty from "./Contacty";
 
 
 const Main = () => {
@@ -14,7 +13,6 @@ const Main = () => {
             <About/>
             <Whyus/>
             <Price/>
-            <Contacty/>
         </div>
     )
 }
