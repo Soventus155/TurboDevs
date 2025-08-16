@@ -5,6 +5,7 @@ import About from "./About";
 import Price from "./Price";
 import Whyus from "./Whyus";
 import Contact from "./Contact";
+import Icons from "./Icons";
 
 
 const Main = () => {
@@ -15,6 +16,7 @@ const Main = () => {
             <Whyus />
             <Price />
             <Contact />
+            <Icons/>
         </div>
     )
 }
