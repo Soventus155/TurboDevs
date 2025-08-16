@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
+import Logo from "../assets/img/png/logo.jpg";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -22,13 +23,9 @@ const Header = () => {
     <div id="header" className={scrolled ? "scrolled" : ""}>
       <div className="container">
         <div className="header">
-          <div className="header-logo">
-            <NavLink className="logo">
-              <h1>
-                Turbo<span>Devs</span>
-              </h1>
-            </NavLink>
-          </div>
+          <NavLink className="logo">
+            <img src={Logo} alt="Logo" />
+          </NavLink>
           <div className="header-nav">
             <NavLink className="nav-a tel">
               <span>

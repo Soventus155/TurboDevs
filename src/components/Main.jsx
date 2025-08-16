@@ -8,13 +8,13 @@ import Contact from "./Contact";
 
 
 const Main = () => {
-    return(
+    return (
         <div className="main">
-            <Services/>
-            <About/>
-            <Whyus/>
-            <Price/>
-            <Contact/>
+            <Services />
+            <About />
+            <Whyus />
+            <Price />
+            <Contact />
         </div>
     )
 }

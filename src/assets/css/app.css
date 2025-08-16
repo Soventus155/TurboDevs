@@ -3,16 +3,9 @@ h1 {
     font-weight: 500;
     color: #fff;
 }
-
 #services {
     background-color: #000;
     padding: 50px 0;
-}
-
-#services h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #fff;
 }
 
 .services_block {
@@ -72,15 +65,21 @@ h1 {
     gap: 10px;
 }
 
-.services_box:hover svg {
-    color: #fff;
-}
+@media (max-width: 768px) {
+    .services_block {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
 
+    .services_box {
+        height: auto;
+    }
+}
 #footer {
     background-color: #000;
     min-height: 300px;
     color: #fff;
     padding: 40px 20px;
     text-align: center;
-    
+
 }
