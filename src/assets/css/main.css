@@ -101,7 +101,6 @@
   line-height: 40px;
 }
 
-/* WhyUs.css */
 .whyus-section {
   padding: 80px 20px;
   background: #0d0d0d;
@@ -155,4 +154,147 @@
   font-size: 16px;
   color: #ccc;
   line-height: 1.5;
+}
+
+.contact-wrapper {
+  background: #0b0b1e;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.contact-box {
+  background: #0070f3;
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-subtitle {
+  color: #a0a0b2;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.contact-title {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.contact-label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: block;
+  font-weight: 500;
+}
+
+.contact-input {
+  background: #1b1432;
+  border: none;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.contact-phone-input {
+  display: flex;
+  align-items: center;
+  background: #1e1e1e;
+  border-radius: 10px;
+  padding: 12px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.contact-phone-input .flag {
+  margin-right: 10px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.contact-phone-input input {
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+}
+
+.contact-textarea {
+  background: #1b1432;
+  border: none;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border-radius: 10px;
+  height: 150px;
+  font-size: 14px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.contact-button {
+  background: #1b1432;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+.contact-button:hover {
+  transform: scale(1.03);
+}
+
+#footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 20px 0;
+  border-top: 1px solid #333;
+}
+
+.footer-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icon span {
+  padding: 0 20px;
+  font-size: 30px;
+}
+
+.footer-line {
+  width: 1140px;
+  height: 1px;
+  background: #b5b5b5;
+  margin: 40px 0;
+}
+
+.footer-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 60px;
+}
+
+.nav-links {
+  color: #b5b5b5;
+  text-decoration: none;
 }

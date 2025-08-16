@@ -1,4 +1,3 @@
-// WhyUs.jsx
 import React from "react";
 import { FaBolt, FaThumbsUp, FaHeadset, FaLightbulb } from "react-icons/fa";
 
