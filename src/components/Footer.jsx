@@ -5,14 +5,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 import { BsTelegram } from "react-icons/bs";
 
 const Footer = () => {
-<<<<<<< HEAD
-    return(
-        <div id="footer">
-            <div className="container">
-                <div className="footer">
-                    
-                </div>
-=======
+
   return (
     <div id="footer">
       <div className="container">
@@ -20,7 +13,6 @@ const Footer = () => {
           <div className="footer-one">
             <div className="fonter-logo">
               <h1>TurboDevs</h1>
->>>>>>> b7795bc (footer css)
             </div>
             <div className="footer-icon">
               <span>
