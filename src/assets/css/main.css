@@ -3,15 +3,17 @@
 @import url("../css/price.css");
 @import url("../css/footer.css");
 @import url("../css/icons.css");
+@import url('../css/adaptive.css');
 
 .header-hero-wrapper {
   background-image: url("../img/png/line.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 700px;
+  min-height: 700px;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 #hero {
@@ -25,6 +27,14 @@
   display: flex;
   align-items: center;
   gap: 30px;
+  margin-top: 30px;
+}
+
+.hero-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 400px;
 }
 
 .hero-line-border {
@@ -32,13 +42,23 @@
   height: 25px;
   background: #006aff;
   border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 106, 255, 0.7);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.hero-line-border:hover {
+  box-shadow: 0 0 15px rgba(0, 106, 255, 0.9);
+  transform: translateY(-3px);
 }
 
 .hero-lines {
   width: 5px;
-  height: 400px;
   background: linear-gradient(to bottom, #006aff, transparent);
-  margin-left: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.hero-lines:hover {
+  box-shadow: 0 0 10px rgba(0, 106, 255, 0.5);
 }
 
 .hero-text {
@@ -46,9 +66,10 @@
 }
 
 .hero-text h1 {
-  font-size: 90px;
+  font-size: 80px;
   color: #fff;
-  font-weight: 800;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .hero-text h1 span {
@@ -62,7 +83,100 @@
   font-size: 30px;
   font-weight: 700;
   color: #fff;
-  line-height: 50px;
+  line-height: 1.4;
+}
+
+@media (max-width: 1024px) {
+  .header-hero-wrapper {
+    min-height: 600px;
+  }
+
+
+  .hero-line {
+    height: 300px;
+  }
+
+  .hero-lines {
+    height: 300px;
+  }
+
+  .hero-text h1 {
+    font-size: 60px;
+  }
+
+  .hero-text h5 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-hero-wrapper {
+    min-height: 500px;
+  }
+
+  #hero {
+    padding-top: 80px;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+  }
+
+  .hero-text h5 {
+    font-size: 20px;
+    padding-left: 10px;
+    line-height: 1.3;
+  }
+
+  .hero-line-border {
+    width: 20px;
+    height: 20px;
+  }
+
+  .hero-lines {
+    width: 4px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  #hero {
+    padding-top: 60px;
+  }
+
+  .hero {
+    gap: 15px;
+  }
+
+  .hero-text {
+    margin-bottom: 40px;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-text h5 {
+    font-size: 16px;
+    padding-left: 5px;
+    line-height: 1.2;
+  }
+
+  .hero-line {
+    height: 200px;
+  }
+
+  .hero-lines {
+    height: 200px;
+    width: 3px;
+  }
+
+  .hero-line-border {
+    width: 15px;
+    height: 15px;
+  }
 }
 
 #about {

@@ -31,7 +31,6 @@ const Hero = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
-            style={{ minHeight: "400px" }}
           >
             <motion.div
               className="hero-line-border"
@@ -60,9 +59,7 @@ const Hero = () => {
               variants={textVariants}
               transition={{ delay: 0.5 }}
             >
-              Мы разрабатываем передовые
-              <br />
-              программные продукты для вашего бизнеса
+              Мы создаем инновационные <br /> решения для вашего бизнеса
             </motion.h5>
           </motion.div>
         </div>
