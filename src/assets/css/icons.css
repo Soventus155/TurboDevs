@@ -1,0 +1,35 @@
+#icons {
+  padding: 40px 0;
+  background: #000;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Адаптивдүү 6га чейин */
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.icons-block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #4178e6;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  max-width: 190px;
+}
+
+.icons-block:hover {
+  transform: scale(1.1);
+}
+
+.icons-block img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #FFF;
+}
