@@ -3,9 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { BiLogoTiktok } from "react-icons/bi";
 import { FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
-import { IoLogoWhatsapp } from "react-icons/io";
+import { IoLogoWhatsapp, IoMdTime } from "react-icons/io";
 import { MdOutlineMail, MdPhone } from "react-icons/md";
 import { PiMapPin } from "react-icons/pi";
+import { GrFacebookOption } from "react-icons/gr";
 
 const Contact = () => {
   const containerVariants = {
@@ -117,13 +118,16 @@ const Contact = () => {
               <motion.div className="location_box phone_block" variants={inputVariants}>
                 <MdPhone size={24} color="#fff" />
                 <div className="pnone_box">
-                  <p>+996 (502) 800-202</p>
-                  <p>+996 (502) 800-202</p>
+                  <p>+996 (555) 922-522</p>
                 </div>
               </motion.div>
               <motion.div className="location_box" variants={inputVariants}>
                 <MdOutlineMail size={24} color="#fff" />
                 <p>turboDevs@gmail.com</p>
+              </motion.div>
+              <motion.div className="location_box" variants={inputVariants}>
+                <IoMdTime size={24} color="#fff" />
+                <p>Понедельник - суббота: 10:00 - 19:00</p>
               </motion.div>
               <motion.div variants={inputVariants}>
                 <h3>Мы в соцсетях</h3>
@@ -139,6 +143,9 @@ const Contact = () => {
                   </motion.div>
                   <motion.div className="social_media_box" variants={socialMediaVariants} whileHover="hover">
                     <BiLogoTiktok size={24} color="#006aff" />
+                  </motion.div>
+                  <motion.div className="social_media_box" variants={socialMediaVariants} whileHover="hover">
+                    <GrFacebookOption size={24} color="#006aff" />
                   </motion.div>
                 </div>
               </motion.div>
