@@ -36,25 +36,25 @@ const Header = () => {
             {isMenuOpen ? <IoMdClose /> : <RxHamburgerMenu />}
           </button>
           <div className={`header-nav ${isMenuOpen ? "open" : ""}`}>
-            <NavLink to="/tel" className="nav-a tel" onClick={toggleMenu}>
+            <NavLink to="/tel" className="nav-a tel">
               <span>
                 <FaPhoneAlt />
               </span>
               +996 555 922 522
             </NavLink>
-            <NavLink to="/services" className="nav-a" onClick={toggleMenu}>
+            <NavLink to="/services" className="nav-a">
               Услуги
             </NavLink>
-            <NavLink to="/about" className="nav-a" onClick={toggleMenu}>
+            <NavLink to="/about" className="nav-a" >
               О нас
             </NavLink>
-            <NavLink to="/why-us" className="nav-a" onClick={toggleMenu}>
+            <NavLink to="/why-us" className="nav-a">
               Почему мы?
             </NavLink>
-            <NavLink to="/pricing" className="nav-a" onClick={toggleMenu}>
+            <NavLink to="/pricing" className="nav-a" >
               Прайс
             </NavLink>
-            <NavLink to="/contacts" className="nav-a" onClick={toggleMenu}>
+            <NavLink to="/contacts" className="nav-a">
               Контакты
             </NavLink>
           </div>
